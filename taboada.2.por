@@ -5,18 +5,18 @@ programa
 	{
 		inteiro Tab[10], valor, num 
 	
-
+		//version 2
  			escreva (" Escolha um valor: \n\n")
  		 	leia(valor)
-
+		//declaramos uma variavel "valor"  e um vetor "Tab[10]" com 10 posiçõe
  		 	escreva (" Escolha a quantidade de vezes: \n\n")
  		 	leia(num)
- 		//declaramos uma variavel "valor"  e um vetor "Tab[10]" com 10 posições
+ 		//declaramos uma variavel "num"  para que o usuario escolha a quantidade de vezes mostrada 
 
  		
 		para (inteiro posicao= 0; posicao < num; posicao++)
 
-		// A condião é iniciar da posição 0, condição tem que ser posição <10 pois ele irá de 0 a 9, ele fazer parte da 3º coluna
+		// A condião é iniciar da posição 0, condição tem que ser posição <num pois ele irá de 0 a 9, ele fazer parte da 3º coluna
 		{
 			Tab [posicao] = valor*(posicao + 1)
 
@@ -46,7 +46,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 733; 
+ * @POSICAO-CURSOR = 79; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
