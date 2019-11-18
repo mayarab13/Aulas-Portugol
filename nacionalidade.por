@@ -4,7 +4,7 @@ programa
 	funcao inicio()
 	{
 		
-		inteiro nacionalidade
+		inteiro nacionalidade = 0 // inserir o "0" para que ele saiba a posição aonde iniciar
 		
 		escreva("Informe a nacionalidade do(a) cidadã(o)  \n")
 		escreva("1 - Brasileiro\n")
@@ -17,10 +17,10 @@ programa
 		leia(nacionalidade)
 		limpa()
 
-		escolha(nacionalidade)
+		escolha(nacionalidade) // escolher uma opção numerica inteira
 		{
-			caso 1: escreva("\n O seu idioma é Brasileiro\n")
-			pare
+			caso 1: escreva("\n O seu idioma é Brasileiro\n") //
+			pare // caso selecione a opção 1 ele para 
 
 			caso 2: escreva("\n O seu idioma é Alemão\n")
 			pare
@@ -46,7 +46,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 114; 
+ * @POSICAO-CURSOR = 614; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
